@@ -1,0 +1,35 @@
+html                  { background: #B2B491; color: #222; }
+html                  { background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#fff))}
+
+body                  { padding: 25px; font-family: Helvetica; font-size: 18pt;}
+
+h1                    { font-size: 300%; color: #000; text-align: center; }
+h2                    { font-size: 200%;}
+ul,
+p                     { text-align: left; text-shadow: #ddd 1px 1px 1px;}
+ul li                 { margin-bottom: 1.5em;}
+code                  {font-family: Monaco; color: #333;}
+
+/* Slideshow*/
+
+#slide-content        { width: 800px; text-align: center; margin: 0 auto; }
+#previous,
+#next                 { display: block; background: #777; color: #fff; padding: 5px; font-size: 75%; position: absolute; width: 200px; top: 0; text-decoration: none; text-align: center;}
+#previous             { left: 0;}
+#next                 { right: 0;}
+#previous:hover,
+#next:hover           { background: #444;}
+
+/* Demo App */
+#svg-container        { background: none; }
+#svg-container svg    { background: #fff; }
+#circle               { float: left; margin-left: 25px }
+#circle p input,
+#circle p label       { float: left;}
+
+#circle p label       { width: 100px;}
+
+#circle p             { float: left; margin: 0; clear: both; margin-bottom: 10px;}
+#style p              { float: left; width: 160px;}
+input                 { font-size: 10pt;}
+label                 { font-size: 12pt;}
